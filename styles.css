@@ -5,7 +5,8 @@
 .header-container {
   display: flex;
   justify-content: left;
-  align-items: left;
+  align-items: flex-start;
+  width: auto;
   flex-direction: column;
   background-image: url(images/lesson04-mock2-banner-image.jpg);
   background-size: cover;
@@ -17,7 +18,8 @@
 .header-container-about {
   display: flex;
   justify-content: left;
-  align-items: left;
+  align-items: flex-start;
+  width: auto;
   flex-direction: column;
   background-size: cover;
   background-color: #009bbb;
@@ -40,6 +42,7 @@
   padding-left: 5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  min-width: 100%;
   color: black;
 }
 
@@ -68,15 +71,15 @@ u {
   padding: 2rem 2rem 2rem 4rem;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: flex-start;
   justify-content: left;
   min-width: 50%;
 }
 
 .box { 
   padding: 0rem;
-  min-width: 300px;
-  width: 2fr;
+  width: auto;
+  min-width: 20%;
 }
 
 .container-aside {
@@ -86,7 +89,7 @@ u {
 .box-aside {
   display: flex;
   justify-content: right;
-  align-items: right;
+  align-items: flex-start;
   flex-direction: column;
   padding: 1rem;
   margin-right: 3rem;
