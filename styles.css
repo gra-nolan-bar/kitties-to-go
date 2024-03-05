@@ -1,3 +1,6 @@
+* {
+  font-family: Arial, Helvetica, sans-serif
+  }
 .header-container {
   display: flex;
   justify-content: left;
@@ -7,7 +10,7 @@
   background-size: cover;
   background-color: #009bbb;
   color: white;
-  padding: 5rem 0rem 0rem 5rem;
+  padding: 2rem 0rem 0rem 5rem;
 }
 
 .header-link { 
@@ -40,6 +43,8 @@
 
 .quote { 
   color: #009bbb;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 u {
@@ -57,7 +62,7 @@ u {
 }
 
 .box { 
-  padding: 2rem;
+  padding: 0rem;
   min-width: 300px;
   width: 2fr;
 }
