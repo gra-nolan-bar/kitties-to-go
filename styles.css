@@ -1,0 +1,43 @@
+header {
+  background-color: #009bbb;
+  background-image: url("images/lesson04-mock2-banner-image.jpg");
+  padding-left: 10rem;
+  color: white;
+}
+
+.top-nav {
+  display: flex;
+  align-items: left;
+  background-color: #ebeceb;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  padding: 2rem 2rem 2rem 10rem;
+}
+
+.articles-div {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+}
+
+.aside-div {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  flex-direction: column;
+}
+
+.bottom-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a3a3a;
+  background-image: url("images/lesson04-mock4-footer-image.jpg");
+  color: white;
+}
