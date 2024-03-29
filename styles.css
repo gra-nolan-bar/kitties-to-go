@@ -21,6 +21,7 @@
   align-items: flex-start;
   width: auto;
   flex-direction: column;
+  background-image: url(images/lesson04-mock2-banner-image.jpg);
   background-size: cover;
   background-color: #009bbb;
   color: white;
@@ -30,6 +31,7 @@
 .header-link { 
   color: black;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 :visited {
@@ -119,4 +121,23 @@ footer {
 .footer-link { 
   color: white;
   margin: 10px;
+}
+
+.hidden {
+  position: absolute;
+  top: auto;
+  left: -10000px;
+}
+
+.hidden:focus {
+  left: 0;
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
