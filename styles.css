@@ -111,6 +111,7 @@ u {
   width: 80%;
   height: auto;
   box-shadow: 5px 5px 20px 0px #009bbb;
+  border-radius: 5px;
 }
 
 .arrow-link { 
