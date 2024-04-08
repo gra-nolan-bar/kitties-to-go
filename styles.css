@@ -110,6 +110,7 @@ u {
 .cotw-photo {
   width: 80%;
   height: auto;
+  box-shadow: 5px 5px 20px 0px #009bbb;
 }
 
 .arrow-link { 
