@@ -129,6 +129,7 @@ footer {
   background-size: cover;
   color: white;
   padding: 2rem;
+  width: 100%;
 }
 
 #cat-logo { 
@@ -157,4 +158,28 @@ footer {
   width: 1px;
   height: 1px;
   overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    display: block;
+  }
+  .header-container {
+    display: block;
+    width: 100%;
+  }
+  .header-container-about {
+    display: block;
+    width: 100%;
+  }
+  #cat-logo {
+    width: 50%;
+    height: auto;
+  }
+  footer {
+    width: 100%;
+  }
+  .top-nav {
+    padding: 1rem 5rem 3rem 1rem;
+  }
 }
